@@ -37,3 +37,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+#define HOLD_ON_OTHER_KEY_PRESS
+#define FORCE_NKRO
+
+
+#define RGB_DISABLE_TIMEOUT 0 // number of milliseconds to wait until rgb automatically turns off
+#define RGB_MATRIX_LED_FLUSH_LIMIT 16 // limits in milliseconds how frequently an animation will update the LEDs. 16 (16ms) is equivalent to limiting to 60fps (increases keyboard responsiveness)
+#define ENABLE_RGB_MATRIX_ALPHAS_MODS
